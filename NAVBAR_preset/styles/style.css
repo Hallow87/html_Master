@@ -1,0 +1,36 @@
+/* Nav style */
+.topnav {
+    background-color: #d2dfeb;
+    overflow: hidden;
+  }
+  
+  /* Nav link style */
+  .topnav a {
+    float: left;
+    color: #101933;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Nav hover style */
+  .topnav a:hover {
+    background-color: #6e726b;
+    color: black;
+  }
+  
+  /* Nav active style */
+  .topnav a.active {
+    background-color: #6d76ad;
+    color: white;
+  }
+  /* Nav search style */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    
